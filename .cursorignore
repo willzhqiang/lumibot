@@ -1,0 +1,9 @@
+# ignore everything
+*
+# do not ignore app
+!lumibot/
+# do not ignore directories inside app
+!lumibot/*/
+!lumibot/**/*/
+# don't ignore python files
+!*.py
